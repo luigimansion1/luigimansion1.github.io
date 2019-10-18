@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prm Edit Beta</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script>
+	<script type="text/javascript" src="binreader.js"></script>
+	<script type="text/javascript" src="prm.js"></script>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="styles/prm.css">
+</head>
+<body>
+	<div id = "header">
+	    <h1>PRMEdit Web Beta</h1>
+    	<input type="file" name="" id="prmFile">
+    	<input type="text" name="" id="savename" value="filename">
+    	<button id="save">Save</button>
+	</div><br><br><br><br>
+	<div id="prm_settings" height="500" width = "500">
+		<h3>Name:</h3>
+		<span id="name"></span>
+		<h3>Value Length: <p id="vlen" style="color: #212121;"></p></h3><br>
+		<input type="text" name="" id="pVal">
+		<h3>Color: <span id="colorPreview"></span>
+	</div>
+	<div id = "main">
+		<table id="params">
+			<tbody>
+				<tr id="paramLine1">
+
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

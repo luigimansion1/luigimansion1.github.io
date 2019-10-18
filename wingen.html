@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!-- Meta -->
+	<title>LM WinTag Generator</title>
+	<meta name="description" content="LM WinTag Generator">
+	<meta name="keywords" content="LM WinTag Generator">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="wingen.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/wingen.css">
+</head>
+<body>
+	<div id="options">
+		<h2>Options</h2>
+		<h5>Position</h5>
+		<select id="winPos">
+			<option>Top</option>
+			<option>Bottom</option>
+		</select>
+		<h5>Colors</h5>
+		<p>Text</p>
+		<select id="textColor">
+			<option>White</option>
+			<option>Green</option>
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Black</option>
+			<option>Blue</option>
+			<option>Light Blue</option>
+			<option>Yellow</option>
+		</select>
+		<p>Window</p>
+		<select id="winColor">
+			<option>Unknown</option>
+			<option>E.Gadd</option>
+			<option>Gold Ghost</option>
+			<option>Luigi</option>
+			<option>Boo</option>
+			<option>Bowser (Unused)</option>
+			<option>Chauncy</option>
+			<option>Mario (Unused)</option>
+			<option>Lydia</option>
+			<option>Madame Clairvoya</option>
+			<option>Melody Pianissima</option>
+			<option>Nana (Unused)</option>
+			<option>Twins</option>
+			<option>Vincent Van Gore</option>
+			<option>Sue Pea</option>
+			<option>Shivers</option>
+			<option>Green Toad (Unused)</option>
+			<option>Red Toad</option>
+			<option>Jarvis</option>
+			<option>Sir Weston</option>
+			<option>Mario Item</option>
+		</select>
+		<h5>Misc</h5>
+		<input id="wait" type="checkbox" name="">Wait For Key</input><br>
+		<input id="lock" type="checkbox" name="">Lock Luigi</input><br>
+		<input id="fromCsv" type="checkbox" name="">Use CSV</input><br>
+		<div id="textSrc">
+			<div id="srcSay">
+				<h5>Text</h5>
+				<input type="text" value="Text" id="pText"/><br><br>
+			</div>
+			<div id="srcCsv">
+				<h5>CSV Line</h5>
+				<input type="number" value="0" id="csvLine"/><br><br>
+			</div>
+		</div>
+		<button id="gen" class='genButton'>Generate</button>
+		<h3 id='showBeta'>Incomplete Features</h3>
+		<div id="betaFeatures">
+			<h5>Generate Switch</h5>
+			<input type="text" id='cases' value="Cases (split with /)"><br><br>
+			<button id="genSwitch" class='genButton'>Generate</button>
+		</div>
+	</div><br><br>
+	<div id="scriptVeiw"></div>
+	<div id="msgVeiw" width="100" height="60">
+		<img id="icon" src="http://i.imgur.com/zm9l6aq.png" width="32" height="32"/>
+		<p id="sample">Sample Text</p>
+	</div>
+	<br>
+	<textarea id="msgTag" name=""></textarea>
+</body>
+</html>
