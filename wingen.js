@@ -54,10 +54,16 @@ let propCheck = (bool, tex)=>{
 	return (bool ? tex:"")
 }
 
+//also just a small bug from the original
+//that color setting for the text should be after the say command
+//just change the order it gets formatted in js
+//-spacey
 let getText = (fCsv, tCol, tex, line)=>{
 	return ( !fCsv ? '<COLOR>('+(tCol+1)+')<SAY>'+tex :"<SPEAK>("+line+")")
 }
 
+
+//Generate Switch INCOMPLETE
 let genCases = (input)=>{
 	cases = input.split("/");
 	choice = "<CHOICE>";
@@ -72,8 +78,8 @@ let genCases = (input)=>{
 }
 
 $(document).ready(()=>{
-	//$('#betaFeatures').hide(); //better to hide both in combination
-	//$('#showBeta').hide();
+	$('#betaFeatures').hide(); 
+	//$('#showBeta').hide();		//remove for access
 	$('#srcCsv').hide();
 	$("#showBeta").click(()=>{
 		$('#betaFeatures').toggle(150);
