@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<!-- Meta -->
-	<title>luigim2</title>
+	<title>luigim1's thing</title>
 	<meta name="description" content="I do stuff.">
 	<meta name="keywords" content="Luigi's Mansion, Hacking, I, do, stuff., luigim1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,9 +34,9 @@
 			<li><a href="index.html">Home</a></li>
 			<!--<li><a href="https://spacecats64.github.io/blog/">Blog</a></li>
 			<li><a href="downloads.html">Downloads</a></li>-->
-			<!--<li><a href="projects.html">Projects</a></li>-->
+			<li><a href="projects.html">Projects</a></li>
 			<li><a href="https://github.com/luigimansion1">GitHub</a></li>
-			<!--<li><a href="https://www.youtube.com/channel/UCzaQEP2Se2L0Tx5O0UyZdUg">Youtube</a></li>-->
+			<li><a href="https://www.youtube.com/channel/UCqVW5Gte_r1C4Jb1Fqht6uA">Youtube</a></li>
 		</ul>
 	</div>
 
