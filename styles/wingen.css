@@ -65,9 +65,8 @@ body{
 	background-color: #65c1e0;
 	border-radius: 20px;
 	padding: 1rem; 
-	opacity: 40%;
+	/*opacity: 40%;*/
 	font-family: Arial;
-	filter: alpha(opacity=40);
 	
 }
 
